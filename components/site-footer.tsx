@@ -153,8 +153,8 @@ export function SiteFooter() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-border pt-6 text-center sm:flex-row sm:text-left">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} {SITE.name}. All rights reserved.
-            <p className="text-xs text-muted-foreground">
+            &copy; {new Date().getFullYear()} {SITE.name}. All rights reserved.</p>
+            <p className="text-xs text-muted-foreground opacity-70">
   Brand Setup & Digital Presence by{" "}
   <a
     href="https://suryanshrjoshi.online"
@@ -165,7 +165,6 @@ export function SiteFooter() {
     Suryansh R Joshi
   </a>
 </p>
-          </p>
           <p className="text-sm text-muted-foreground">
             Dehradun, Uttarakhand, India
           </p>
